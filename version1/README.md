@@ -9,12 +9,11 @@ Final project for **Introduction to Programming 2** (AITU, Spring 2026).
 
 | Member | Role | Module |
 |--------|------|--------|
-| TODO: Pashanov Yelnur (hard) | Business logic & algorithms | `services/` |
-| TODO: Kuandykov Aliman (hard) | Data models + app integration | `models/`, `main.py` |
-| TODO: Yershadi Nurassyl (easy) | File I/O & validators | `utils/` |
-| TODO: Serikbekkyzy Zhibek (easy) | Console UI | `ui/console.py` |
+| Pashanov Yelnur (hard) | Business logic & algorithms | `services/` |
+| Kuandykov Aliman (hard) | Data models + app integration | `models/`, `main.py` |
+| Yershadi Nurassyl (easy) | File I/O & validators | `utils/` |
+| Serikbekkyzy Zhibek (easy) | Console UI | `ui/console.py` |
 
-> Replace the TODO names with your real ones before submission.
 
 ## How to run
 
@@ -35,29 +34,29 @@ python -m unittest discover tests
 
 ```
 StudentGradeApp/
-├── main.py              # console entry — menu loop (Member 2)
+├── main.py              # console entry — menu loop
 ├── README.md
 ├── TASKS.md             # per-member commit plan
 ├── requirements.txt     # empty — stdlib only
 ├── data/
 │   ├── grades.csv       # sample input (CSV format from spec)
 │   └── courses.json     # course catalog
-├── models/              # OOP layer                    (Member 2)
+├── models/              # OOP layer
 │   ├── person.py        #   base class
 │   ├── student.py       #   inherits Person
 │   ├── admin.py         #   inherits Person, has login
 │   ├── course.py
 │   └── grade.py
-├── services/            # business logic               (Member 1)
+├── services/            # business logic
 │   ├── gpa_calculator.py
 │   ├── report_generator.py
 │   └── decorators.py    # @log_call, @timed
-├── utils/               # I/O & helpers                (Member 3)
+├── utils/               # I/O & helpers
 │   ├── csv_handler.py
 │   ├── json_handler.py
 │   └── validators.py    # regex-based
 ├── ui/
-│   └── console.py       # menus, prompts, tables       (Member 4)
+│   └── console.py       # menus, prompts, tables
 └── tests/               # unit tests (everyone tests their own module)
     ├── test_models.py
     ├── test_services.py
