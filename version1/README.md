@@ -9,10 +9,10 @@ Final project for **Introduction to Programming 2** (AITU, Spring 2026).
 
 | Member | Role | Module |
 |--------|------|--------|
-| TODO: Name 1 (hard) | Business logic & algorithms | `services/` |
-| TODO: Name 2 (hard) | Data models + app integration | `models/`, `main.py` |
-| TODO: Name 3 (easy) | File I/O & validators | `utils/` |
-| TODO: Name 4 (easy) | Console UI | `ui/console.py` |
+| TODO: Pashanov Yelnur (hard) | Business logic & algorithms | `services/` |
+| TODO: Kuandykov Aliman (hard) | Data models + app integration | `models/`, `main.py` |
+| TODO: Yershadi Nurassyl (easy) | File I/O & validators | `utils/` |
+| TODO: Serikbekkyzy Zhibek (easy) | Console UI | `ui/console.py` |
 
 > Replace the TODO names with your real ones before submission.
 
