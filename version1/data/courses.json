@@ -1,0 +1,5 @@
+[
+  {"code": "Math",    "title": "Calculus I",      "credits": 4},
+  {"code": "Physics", "title": "Physics I",       "credits": 3},
+  {"code": "English", "title": "Academic English", "credits": 2}
+]
