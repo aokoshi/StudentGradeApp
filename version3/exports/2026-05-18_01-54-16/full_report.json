@@ -1,0 +1,130 @@
+{
+  "exported_at": "2026-05-18T01:54:16",
+  "students": [
+    {
+      "id": 1,
+      "first_name": "Aizada",
+      "last_name": "Tester",
+      "full_name": "Aizada Tester",
+      "email": "a@aitu.edu.kz",
+      "course_count": 2,
+      "grade_count": 3,
+      "cgpa": 3.1,
+      "enrollments": [
+        {
+          "course_id": 2,
+          "course_name": "Calculus I",
+          "credits": 4,
+          "t1": 75.0,
+          "t2": null,
+          "t3": null,
+          "final_score": 75.0,
+          "letter": "B-",
+          "gpa": 2.67
+        },
+        {
+          "course_id": 1,
+          "course_name": "Intro to Programming 2",
+          "credits": 3,
+          "t1": 92.0,
+          "t2": 88.0,
+          "t3": null,
+          "final_score": 90.0,
+          "letter": "A-",
+          "gpa": 3.67
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "first_name": "Bek",
+      "last_name": "Demo",
+      "full_name": "Bek Demo",
+      "email": "b@aitu.edu.kz",
+      "course_count": 2,
+      "grade_count": 1,
+      "cgpa": 3.0,
+      "enrollments": [
+        {
+          "course_id": 2,
+          "course_name": "Calculus I",
+          "credits": 4,
+          "t1": null,
+          "t2": null,
+          "t3": null,
+          "final_score": null,
+          "letter": "-",
+          "gpa": null
+        },
+        {
+          "course_id": 1,
+          "course_name": "Intro to Programming 2",
+          "credits": 3,
+          "t1": 81.0,
+          "t2": null,
+          "t3": null,
+          "final_score": 81.0,
+          "letter": "B",
+          "gpa": 3.0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "first_name": "Kuman",
+      "last_name": "Kumanych",
+      "full_name": "Kuman Kumanych",
+      "email": "kumachaan@aitu.edu.kz",
+      "course_count": 2,
+      "grade_count": 6,
+      "cgpa": 2.96,
+      "enrollments": [
+        {
+          "course_id": 2,
+          "course_name": "Calculus I",
+          "credits": 4,
+          "t1": 100.0,
+          "t2": 80.0,
+          "t3": 85.0,
+          "final_score": 88.33333333333333,
+          "letter": "B+",
+          "gpa": 3.33
+        },
+        {
+          "course_id": 3,
+          "course_name": "CompScience",
+          "credits": 5,
+          "t1": 75.0,
+          "t2": 90.0,
+          "t3": 65.0,
+          "final_score": 76.66666666666667,
+          "letter": "B-",
+          "gpa": 2.67
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "Intro to Programming 2",
+      "credits": 3,
+      "hours": 60,
+      "student_count": 2
+    },
+    {
+      "id": 2,
+      "name": "Calculus I",
+      "credits": 4,
+      "hours": 90,
+      "student_count": 3
+    },
+    {
+      "id": 3,
+      "name": "CompScience",
+      "credits": 5,
+      "hours": 90,
+      "student_count": 1
+    }
+  ]
+}

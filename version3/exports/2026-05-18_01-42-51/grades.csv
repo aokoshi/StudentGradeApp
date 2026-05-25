@@ -1,0 +1,5 @@
+student_id,full_name,course_id,course_name,credits,t1,t2,t3,final_score,letter,gpa
+1,Aizada Tester,2,Calculus I,4,75.0,,,75.00,B-,2.67
+1,Aizada Tester,1,Intro to Programming 2,3,92.0,88.0,,90.00,A-,3.67
+2,Bek Demo,2,Calculus I,4,,,,,-,
+2,Bek Demo,1,Intro to Programming 2,3,81.0,,,81.00,B,3.00

@@ -1,0 +1,89 @@
+{
+  "exported_at": "2026-05-18T01:42:51",
+  "students": [
+    {
+      "id": 1,
+      "first_name": "Aizada",
+      "last_name": "Tester",
+      "full_name": "Aizada Tester",
+      "email": "a@aitu.edu.kz",
+      "course_count": 2,
+      "grade_count": 3,
+      "cgpa": 3.1,
+      "enrollments": [
+        {
+          "course_id": 2,
+          "course_name": "Calculus I",
+          "credits": 4,
+          "t1": 75.0,
+          "t2": null,
+          "t3": null,
+          "final_score": 75.0,
+          "letter": "B-",
+          "gpa": 2.67
+        },
+        {
+          "course_id": 1,
+          "course_name": "Intro to Programming 2",
+          "credits": 3,
+          "t1": 92.0,
+          "t2": 88.0,
+          "t3": null,
+          "final_score": 90.0,
+          "letter": "A-",
+          "gpa": 3.67
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "first_name": "Bek",
+      "last_name": "Demo",
+      "full_name": "Bek Demo",
+      "email": "b@aitu.edu.kz",
+      "course_count": 2,
+      "grade_count": 1,
+      "cgpa": 3.0,
+      "enrollments": [
+        {
+          "course_id": 2,
+          "course_name": "Calculus I",
+          "credits": 4,
+          "t1": null,
+          "t2": null,
+          "t3": null,
+          "final_score": null,
+          "letter": "-",
+          "gpa": null
+        },
+        {
+          "course_id": 1,
+          "course_name": "Intro to Programming 2",
+          "credits": 3,
+          "t1": 81.0,
+          "t2": null,
+          "t3": null,
+          "final_score": 81.0,
+          "letter": "B",
+          "gpa": 3.0
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "Intro to Programming 2",
+      "credits": 3,
+      "hours": 60,
+      "student_count": 2
+    },
+    {
+      "id": 2,
+      "name": "Calculus I",
+      "credits": 4,
+      "hours": 90,
+      "student_count": 2
+    }
+  ]
+}
