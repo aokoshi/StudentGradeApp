@@ -1,4 +1,4 @@
-# StudentGradeAPP v2
+# StudentGradeAPP v2 (v3 rework)
 
 A professional console application for managing students, courses and grades —
 built for **Introduction to Programming 2 (Python)** at AITU.
