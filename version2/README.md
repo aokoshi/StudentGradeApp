@@ -149,14 +149,3 @@ python -m unittest discover -s tests -v
 | Unit testing | `tests/test_gpa.py`, `tests/test_validators.py` (`unittest`) |
 | Algorithmic efficiency | Set-based membership check in the grading workflow (O(1) instead of O(n)); single-pass weighted cGPA |
 | Advanced features | **Decorators** (`@confirm_action`, `@catch_errors`), **generators** (`StudentService.iter_all`), **lambda + filter** (top-students report), **regex** (email + name validators) |
-
----
-
-## Team members
-
-> Replace this section with your real team before submitting.
-
-- Member 1 — *role: e.g. database layer + services*
-- Member 2 — *role: e.g. UI / menu flow*
-- Member 3 — *role: e.g. GPA / validators / tests*
-- Member 4 — *role: e.g. models / docs / presentation*
