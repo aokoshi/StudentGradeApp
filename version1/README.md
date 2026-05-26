@@ -5,16 +5,6 @@ Built in pure Python (stdlib only) — no third-party dependencies.
 
 Final project for **Introduction to Programming 2** (AITU, Spring 2026).
 
-## Team
-
-| Member | Role | Module |
-|--------|------|--------|
-| Pashanov Yelnur (hard) | Business logic & algorithms | `services/` |
-| Kuandykov Aliman (hard) | Data models + app integration | `models/`, `main.py` |
-| Yershadi Nurassyl (easy) | File I/O & validators | `utils/` |
-| Serikbekkyzy Zhibek (easy) | Console UI | `ui/console.py` |
-
-
 ## How to run
 
 ```bash
